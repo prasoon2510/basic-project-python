@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+=======
 
 # Environment variables and secrets
 .env
@@ -22,3 +32,4 @@ htmlcov/
 
 # Logs
 *.log
+>>>>>>> 5c20caed04465d389df0ed4d3cfbdb80d75e97df

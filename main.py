@@ -1,4 +1,4 @@
-
+from app.main import app
 import os
 
 from dotenv import load_dotenv
@@ -47,3 +47,4 @@ async def health_check():
     return {
         "status": "healthy"
     }
+
