@@ -1,4 +1,5 @@
 [project]
+<<<<<<< HEAD
 name = "ecommerce-management-api"
 version = "0.1.0"
 description = "Add your description here"
@@ -14,6 +15,17 @@ dependencies = [
     "pymysql>=1.2.4",
     "python-dotenv>=1.2.4",
     "sqlalchemy>=2.1.8",
+=======
+name = "loan-management-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.2",
+    "pyjwt[crypto]>=2.15.1",
+    "python-dotenv>=1.2.4",
+>>>>>>> 5c20caed04465d389df0ed4d3cfbdb80d75e97df
     "uvicorn>=0.54.0",
 ]
 
@@ -21,5 +33,13 @@ dependencies = [
 dev = [
     "httpx>=0.28.1",
     "pytest>=9.2.0",
+<<<<<<< HEAD
     "pytest-cov>=7.1.0",
 ]
+=======
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+>>>>>>> 5c20caed04465d389df0ed4d3cfbdb80d75e97df
